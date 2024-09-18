@@ -1,0 +1,29 @@
+此目录为
+RGB-毫米波跨模态身份重识别项目
+-train_midmodal_tri_nln_loc.py	训练文件，同时也包含了测试与可视化功能   
+-network_tcmr.py			网络设计文件
+-dataset_me_rgb.py			数据集加载，在第8294行修改数据集位置。本工作使用的数据集可联系瑞笠或使用服务器上同步数据。服务器地址：223.3.72.22	数据集位  
+置：/home/sdb/yaotianshun/Reid/npydata/0818/straight_road_npy
+
+xftp
+223.3.72.22
+shiruili
+RuiliShi12345
+
+
+-draw_pose.py			可视化代码
+-losses.py				损失函数定义
+-lime_test.py			基于lime的网络可解释性测试
+-shap_test.py			基于shap的网络可解释性测试
+-smpl_utils_extend.py		smpl源代码
+-Resnet.py			resnet源代码
+-gaitpart.py			gaitpart源代码
+剩余py文件皆为配置与开源项目文件，一般情况无需更改
+
+-loss				用于保存训练过程
+-net				储存部分网络代码
+-lib				库目录，包含了hmr、tcmr的预训练模型
+-log				用于保存训练完毕的模型，可直接调用
+-res				实验结果与可视化展示
+
+
