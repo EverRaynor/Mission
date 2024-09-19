@@ -24,7 +24,7 @@ git clone https://github.com/EverRaynor/Mission
 https://drive.google.com/file/d/1DtZ1epsKTfqbcmWJaMZqgq5tbhQbyRGq/view?usp=sharing
 ```
 
-## Data:
+## Codes:
 
 draw_pose.py - Pose Visualization Code
 
@@ -41,6 +41,8 @@ Resnet.py - ResNet Source Code
 gaitpart.py - GaitPart Source Code
 
 Remaining .py files are configuration and open-source project files, which generally do not need to be changed.
+
+## Folders:
 
 loss - Directory for saving training process data
 
