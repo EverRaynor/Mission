@@ -16,10 +16,12 @@ This repository holds the codebase, dataset and models for the paper:
 
 ## Installation:
 
+install project
 ``` shell
 git clone https://github.com/EverRaynor/Mission
 ```
 
+download extra files
 ``` download files
 https://drive.google.com/file/d/1DtZ1epsKTfqbcmWJaMZqgq5tbhQbyRGq/view?usp=sharing
 ```
