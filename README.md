@@ -12,6 +12,9 @@ This repository holds the codebase, dataset and models for the paper:
 - PyTorch
 - Other Python libraries can be installed by `pip install -r requirements.txt`
 
+****Tips:** If you cannot set up the environment locally, you can use the Google's Colab service to run
+this [notebook](https://colab.research.google.com/drive/10o0eAFYQMIcq1H70OBD9Z6RtRqX_5cY2?usp=sharing).**
+
 
 
 ## Installation:
