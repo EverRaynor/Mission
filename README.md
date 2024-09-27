@@ -49,6 +49,12 @@ https://drive.google.com/file/d/17uch57Lqz9oFydHtZ0bCNw93Dsv83fJE/view?usp=shari
 
 ## Codes:
 
+train_midmodal_tri_nln_loc.py -a training script that also includes testing and visualization features.
+
+network_tcmr.py - the network design file.
+
+dataset_me_rgb.py - the dataset loading script. Modify the dataset location on line 8294.
+
 draw_pose.py - Pose Visualization Code
 
 losses.py - Loss Function Definitions
@@ -76,3 +82,10 @@ lib - Library directory, includes pre-trained models for HMR and TCMR
 log - Directory for saving trained models, ready for direct use
 
 res - Experimental results and visualization display
+
+## Training&Evaluation:
+Modify the dataset location on line 8294 of dataset_me_rgb.py.
+
+```
+run Mission/train_midmodal_tri_nln_loc.py
+``` 
