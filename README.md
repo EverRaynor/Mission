@@ -24,28 +24,13 @@ Install project
 git clone https://github.com/EverRaynor/Mission
 ```
 
-Download extra files
+Download extra files and extract them to the directory.
 ``` download files
-https://drive.google.com/file/d/1DtZ1epsKTfqbcmWJaMZqgq5tbhQbyRGq/view?usp=sharing
-```
-
-Download dataset
-```
 straight_road_npy.zip
 https://drive.google.com/file/d/1Z5B_TSyzjd6Kav6mklc4KHjDjJQ3aSta/view?usp=sharing
-
-SiamesePC_20_nonormalization_rgb.zip
-https://drive.google.com/file/d/1XiBiOtFClkc5flhJxlIgYidyBltwLdXU/view?usp=sharing
-
 rgb_mmwave_data.zip
 https://drive.google.com/file/d/1DtZ1epsKTfqbcmWJaMZqgq5tbhQbyRGq/view?usp=sharing
-
-multi_angle_npy.zip
-https://drive.google.com/file/d/1tiTPC77dW1rFtOKM00fRE-Efeodu7TN9/view?usp=sharing
-
-cedui_npy.zip
-https://drive.google.com/file/d/17uch57Lqz9oFydHtZ0bCNw93Dsv83fJE/view?usp=sharing
-``` 
+```
 
 ## Codes:
 
