@@ -8293,29 +8293,29 @@ class SiamesePC_38_rgb_full_midmodal_offlinetri_final_07train_zhengdui(Dataset):
         # 读取rgb数据
         if self.issever:
             list_all_ti = np.load(
-                "/home/sdb/yaotianshun/Reid/npydata/0818/straight_road_npy/list_all_ti.npy")
+                "/content/straight_road_npy/list_all_ti.npy")
 
             list_all_kinect_key = np.load(
-                "/home/sdb/yaotianshun/Reid/npydata/0818/straight_road_npy/list_all_kinect_key.npy")
+                "/content/straight_road_npy/list_all_kinect_key.npy")
             list_label_all = np.load(
-                "/home/sdb/yaotianshun/Reid/npydata/0818/straight_road_npy/list_label_all.npy")
+                "/content/0818/straight_road_npy/list_label_all.npy")
             list_all_rgb_full = np.load(
-                "/home/sdb/yaotianshun/Reid/npydata/0818/straight_road_npy/list_all_image.npy")
+                "/content/straight_road_npy/list_all_image.npy")
             #ti和kincet_key保持一致：是否calibration
         else:
             list_all_ti = np.load(
-                "C:\\Users\Administrator1\Desktop\\0818\straight_road_npy\list_all_ti.npy")
+                "/content\straight_road_npy\list_all_ti.npy")
             list_all_kinect_key = np.load(
-                "C:\\Users\Administrator1\Desktop\\0818\straight_road_npy\list_all_kinect_key.npy")
+                "/content\straight_road_npy\list_all_kinect_key.npy")
             list_label_all = np.load(
-                "C:\\Users\Administrator1\Desktop\\0818\straight_road_npy\list_label_all.npy")
+                "/content\straight_road_npy\list_label_all.npy")
             list_all_rgb_full = np.load(
-                "C:\\Users\Administrator1\Desktop\\0818\straight_road_npy\list_all_image.npy")
+                "/content\straight_road_npy\list_all_image.npy")
             '''
             list_label_all = np.asarray(list_label_all, dtype=int)
             list_label_all = list_label_all+25
             list_label_all = np.asarray(list_label_all, dtype=str)
-            np.save("C:\\Users\Administrator1\Desktop\\0818\straight_road_npy\list_label_all.npy",list_label_all)
+            np.save("/content\straight_road_npy\list_label_all.npy",list_label_all)
             '''
             print("list_label_all:", list_label_all)
             #for i in range (331):
@@ -8338,7 +8338,7 @@ class SiamesePC_38_rgb_full_midmodal_offlinetri_final_07train_zhengdui(Dataset):
         key = list_all_kinect_key[120:140,:,0,2].reshape(20,20,1)
         print("key:",key.shape)
         import scipy.io
-        scipy.io.savemat("C:\\Users\Administrator1\Desktop\\1.mat",
+        scipy.io.savemat("/content\\1.mat",
                          mdict={'key': key})
 
         # list_all_ti=point_cloud_to_volume(list_all_ti,20,1.0)
