@@ -8293,24 +8293,24 @@ class SiamesePC_38_rgb_full_midmodal_offlinetri_final_07train_zhengdui(Dataset):
         # 读取rgb数据
         if self.issever:
             list_all_ti = np.load(
-                "/straight_road_npy/list_all_ti.npy")
+                "./straight_road_npy/list_all_ti.npy")
 
             list_all_kinect_key = np.load(
-                "/straight_road_npy/list_all_kinect_key.npy")
+                "./straight_road_npy/list_all_kinect_key.npy")
             list_label_all = np.load(
-                "/straight_road_npy/list_label_all.npy")
+                "./straight_road_npy/list_label_all.npy")
             list_all_rgb_full = np.load(
-                "/straight_road_npy/list_all_image.npy")
+                "./straight_road_npy/list_all_image.npy")
             #ti和kincet_key保持一致：是否calibration
         else:
             list_all_ti = np.load(
-                "\straight_road_npy\list_all_ti.npy")
+                "./straight_road_npy\list_all_ti.npy")
             list_all_kinect_key = np.load(
-                "\straight_road_npy\list_all_kinect_key.npy")
+                "./straight_road_npy\list_all_kinect_key.npy")
             list_label_all = np.load(
-                "\straight_road_npy\list_label_all.npy")
+                "./straight_road_npy\list_label_all.npy")
             list_all_rgb_full = np.load(
-                "\straight_road_npy\list_all_image.npy")
+                "./straight_road_npy\list_all_image.npy")
             '''
             list_label_all = np.asarray(list_label_all, dtype=int)
             list_label_all = list_label_all+25
