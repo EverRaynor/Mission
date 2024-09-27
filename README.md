@@ -53,7 +53,7 @@ train_midmodal_tri_nln_loc.py -a training script that also includes testing and 
 
 network_tcmr.py - the network design file.
 
-dataset_me_rgb.py - the dataset loading script. Modify the dataset location on line 8294.
+dataset_me_rgb.py - the dataset loading script. 
 
 draw_pose.py - Pose Visualization Code
 
